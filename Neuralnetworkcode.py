@@ -44,4 +44,3 @@ classsifier.fit(X_train, y_train,batch_size=10,nb_epoch=100)
 
 y_pred = classsifier.predict(X_test)
 yz_pred = (y_pred > 0.5)
-z
